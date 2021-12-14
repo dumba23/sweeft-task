@@ -1,0 +1,33 @@
+.userinfo-container{
+    max-width: 1200px;
+    margin:0 auto;
+    border:1px solid #ccc;
+}
+
+.userinfo{
+    padding: 20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+}
+
+.left-info{
+    margin-left:20px;
+    width: 90%;
+}
+
+fieldset {
+    display: block;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    min-inline-size: min-content;
+    border-width: 2px;
+    border-style: groove;
+    border-color: threedface;
+    border-image: initial;
+}
